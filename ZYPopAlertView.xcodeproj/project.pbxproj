@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF33A651B88166C007DCFDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF33A641B88166C007DCFDC /* main.m */; };
+		1AF33A681B88166C007DCFDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF33A671B88166C007DCFDC /* AppDelegate.m */; };
+		1AF33A6B1B88166C007DCFDC /* ZYPopAlertView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF33A691B88166C007DCFDC /* ZYPopAlertView.xcdatamodeld */; };
+		1AF33A6E1B88166C007DCFDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF33A6D1B88166C007DCFDC /* ViewController.m */; };
+		1AF33A711B88166C007DCFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF33A6F1B88166C007DCFDC /* Main.storyboard */; };
+		1AF33A731B88166C007DCFDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF33A721B88166C007DCFDC /* Images.xcassets */; };
+		1AF33A761B88166C007DCFDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AF33A741B88166C007DCFDC /* LaunchScreen.xib */; };
+		1AF33A821B88166C007DCFDC /* ZYPopAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF33A811B88166C007DCFDC /* ZYPopAlertViewTests.m */; };
+		1AF33A8E1B8816A9007DCFDC /* ZYPopAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF33A8D1B8816A9007DCFDC /* ZYPopAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AF33A7C1B88166C007DCFDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF33A571B88166C007DCFDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF33A5E1B88166C007DCFDC;
+			remoteInfo = ZYPopAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF33A5F1B88166C007DCFDC /* ZYPopAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYPopAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF33A631B88166C007DCFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF33A641B88166C007DCFDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AF33A661B88166C007DCFDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AF33A671B88166C007DCFDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AF33A6A1B88166C007DCFDC /* ZYPopAlertView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZYPopAlertView.xcdatamodel; sourceTree = "<group>"; };
+		1AF33A6C1B88166C007DCFDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AF33A6D1B88166C007DCFDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AF33A701B88166C007DCFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AF33A721B88166C007DCFDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AF33A751B88166C007DCFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AF33A7B1B88166C007DCFDC /* ZYPopAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYPopAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF33A801B88166C007DCFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF33A811B88166C007DCFDC /* ZYPopAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPopAlertViewTests.m; sourceTree = "<group>"; };
+		1AF33A8C1B8816A9007DCFDC /* ZYPopAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPopAlertView.h; sourceTree = "<group>"; };
+		1AF33A8D1B8816A9007DCFDC /* ZYPopAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPopAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AF33A5C1B88166C007DCFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF33A781B88166C007DCFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF33A561B88166C007DCFDC = {
+			isa = PBXGroup;
+			children = (
+				1AF33A611B88166C007DCFDC /* ZYPopAlertView */,
+				1AF33A7E1B88166C007DCFDC /* ZYPopAlertViewTests */,
+				1AF33A601B88166C007DCFDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF33A601B88166C007DCFDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AF33A5F1B88166C007DCFDC /* ZYPopAlertView.app */,
+				1AF33A7B1B88166C007DCFDC /* ZYPopAlertViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AF33A611B88166C007DCFDC /* ZYPopAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1AF33A8B1B881690007DCFDC /* ZYPopView */,
+				1AF33A661B88166C007DCFDC /* AppDelegate.h */,
+				1AF33A671B88166C007DCFDC /* AppDelegate.m */,
+				1AF33A6C1B88166C007DCFDC /* ViewController.h */,
+				1AF33A6D1B88166C007DCFDC /* ViewController.m */,
+				1AF33A6F1B88166C007DCFDC /* Main.storyboard */,
+				1AF33A721B88166C007DCFDC /* Images.xcassets */,
+				1AF33A741B88166C007DCFDC /* LaunchScreen.xib */,
+				1AF33A691B88166C007DCFDC /* ZYPopAlertView.xcdatamodeld */,
+				1AF33A621B88166C007DCFDC /* Supporting Files */,
+			);
+			path = ZYPopAlertView;
+			sourceTree = "<group>";
+		};
+		1AF33A621B88166C007DCFDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF33A631B88166C007DCFDC /* Info.plist */,
+				1AF33A641B88166C007DCFDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF33A7E1B88166C007DCFDC /* ZYPopAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF33A811B88166C007DCFDC /* ZYPopAlertViewTests.m */,
+				1AF33A7F1B88166C007DCFDC /* Supporting Files */,
+			);
+			path = ZYPopAlertViewTests;
+			sourceTree = "<group>";
+		};
+		1AF33A7F1B88166C007DCFDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF33A801B88166C007DCFDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF33A8B1B881690007DCFDC /* ZYPopView */ = {
+			isa = PBXGroup;
+			children = (
+				1AF33A8C1B8816A9007DCFDC /* ZYPopAlertView.h */,
+				1AF33A8D1B8816A9007DCFDC /* ZYPopAlertView.m */,
+			);
+			name = ZYPopView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AF33A5E1B88166C007DCFDC /* ZYPopAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF33A851B88166C007DCFDC /* Build configuration list for PBXNativeTarget "ZYPopAlertView" */;
+			buildPhases = (
+				1AF33A5B1B88166C007DCFDC /* Sources */,
+				1AF33A5C1B88166C007DCFDC /* Frameworks */,
+				1AF33A5D1B88166C007DCFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPopAlertView;
+			productName = ZYPopAlertView;
+			productReference = 1AF33A5F1B88166C007DCFDC /* ZYPopAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AF33A7A1B88166C007DCFDC /* ZYPopAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF33A881B88166C007DCFDC /* Build configuration list for PBXNativeTarget "ZYPopAlertViewTests" */;
+			buildPhases = (
+				1AF33A771B88166C007DCFDC /* Sources */,
+				1AF33A781B88166C007DCFDC /* Frameworks */,
+				1AF33A791B88166C007DCFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF33A7D1B88166C007DCFDC /* PBXTargetDependency */,
+			);
+			name = ZYPopAlertViewTests;
+			productName = ZYPopAlertViewTests;
+			productReference = 1AF33A7B1B88166C007DCFDC /* ZYPopAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AF33A571B88166C007DCFDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ZY;
+				TargetAttributes = {
+					1AF33A5E1B88166C007DCFDC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1AF33A7A1B88166C007DCFDC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1AF33A5E1B88166C007DCFDC;
+					};
+				};
+			};
+			buildConfigurationList = 1AF33A5A1B88166C007DCFDC /* Build configuration list for PBXProject "ZYPopAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AF33A561B88166C007DCFDC;
+			productRefGroup = 1AF33A601B88166C007DCFDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF33A5E1B88166C007DCFDC /* ZYPopAlertView */,
+				1AF33A7A1B88166C007DCFDC /* ZYPopAlertViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AF33A5D1B88166C007DCFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF33A711B88166C007DCFDC /* Main.storyboard in Resources */,
+				1AF33A761B88166C007DCFDC /* LaunchScreen.xib in Resources */,
+				1AF33A731B88166C007DCFDC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF33A791B88166C007DCFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF33A5B1B88166C007DCFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF33A6B1B88166C007DCFDC /* ZYPopAlertView.xcdatamodeld in Sources */,
+				1AF33A681B88166C007DCFDC /* AppDelegate.m in Sources */,
+				1AF33A6E1B88166C007DCFDC /* ViewController.m in Sources */,
+				1AF33A8E1B8816A9007DCFDC /* ZYPopAlertView.m in Sources */,
+				1AF33A651B88166C007DCFDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF33A771B88166C007DCFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF33A821B88166C007DCFDC /* ZYPopAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AF33A7D1B88166C007DCFDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AF33A5E1B88166C007DCFDC /* ZYPopAlertView */;
+			targetProxy = 1AF33A7C1B88166C007DCFDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AF33A6F1B88166C007DCFDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF33A701B88166C007DCFDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AF33A741B88166C007DCFDC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF33A751B88166C007DCFDC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AF33A831B88166C007DCFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AF33A841B88166C007DCFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AF33A861B88166C007DCFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYPopAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AF33A871B88166C007DCFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYPopAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AF33A891B88166C007DCFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYPopAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYPopAlertView.app/ZYPopAlertView";
+			};
+			name = Debug;
+		};
+		1AF33A8A1B88166C007DCFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYPopAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYPopAlertView.app/ZYPopAlertView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF33A5A1B88166C007DCFDC /* Build configuration list for PBXProject "ZYPopAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF33A831B88166C007DCFDC /* Debug */,
+				1AF33A841B88166C007DCFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF33A851B88166C007DCFDC /* Build configuration list for PBXNativeTarget "ZYPopAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF33A861B88166C007DCFDC /* Debug */,
+				1AF33A871B88166C007DCFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AF33A881B88166C007DCFDC /* Build configuration list for PBXNativeTarget "ZYPopAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF33A891B88166C007DCFDC /* Debug */,
+				1AF33A8A1B88166C007DCFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AF33A691B88166C007DCFDC /* ZYPopAlertView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AF33A6A1B88166C007DCFDC /* ZYPopAlertView.xcdatamodel */,
+			);
+			currentVersion = 1AF33A6A1B88166C007DCFDC /* ZYPopAlertView.xcdatamodel */;
+			path = ZYPopAlertView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AF33A571B88166C007DCFDC /* Project object */;
+}
