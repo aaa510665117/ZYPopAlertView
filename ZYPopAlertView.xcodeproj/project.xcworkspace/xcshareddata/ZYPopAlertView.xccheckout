@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0CBED1B5-F27D-4461-86F0-395168334A78</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZYPopAlertView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8FBF03AF88861A5878A7B96244B0C689FD2B8546</key>
+		<string>https://github.com/aaa510665117/ZYPopAlertView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZYPopAlertView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8FBF03AF88861A5878A7B96244B0C689FD2B8546</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aaa510665117/ZYPopAlertView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8FBF03AF88861A5878A7B96244B0C689FD2B8546</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8FBF03AF88861A5878A7B96244B0C689FD2B8546</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZYPopAlertView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
